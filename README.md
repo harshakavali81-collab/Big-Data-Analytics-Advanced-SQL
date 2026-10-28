@@ -62,7 +62,7 @@ big-data-clickstream-analytics/
 │   │   ├── intermediate/
 │   │   └── marts/
 │   └── tests/                 custom dbt contracts
-├── sql/                       six advanced SQL examples
+├── sql/                       nine advanced SQL examples
 ├── dashboard/                 Streamlit app + standalone visual gallery
 ├── tests/                     pytest suite
 └── docs/                      architecture, metrics, dictionary, case study
@@ -104,6 +104,9 @@ The graphics are **illustrative**; charts do not represent measured model output
 - [Rolling seven-row KPI calculations](sql/04_rolling_metrics.sql)
 - [Acquisition-channel ranking](sql/05_channel_rank.sql)
 - [RFM-style segmentation](sql/06_rfm_segments.sql)
+- [Device conversion](sql/07_device_conversion.sql)
+- [Session duration with aggregation](sql/08_session_duration.sql)
+- [Product add-to-cart and checkout ratios](sql/09_product_attach_rate.sql)
 
 ## Data quality and test automation
 
@@ -158,3 +161,7 @@ python -m scripts.benchmark --sessions 10000 --output data/generated/benchmark.j
 Parquet exports contain **synthetic events** and are limited to local/CI artifacts, while the public JSON contains aggregate reports only. Benchmark timings depend on the machine and are not cloud throughput guarantees.
 
 [Reproduction](docs/REPRODUCIBILITY.md) · [Security and privacy](docs/SECURITY.md) · [Test matrix](docs/TEST_MATRIX.md) · [Public dashboard details](docs/PUBLIC_DEMO.md)
+
+## Project tree, processing workflow and interview proof
+
+[Complete project tree](PROJECT_TREE.md) · [Lineage and workflow](docs/WORKFLOW.md) · [Data Engineer interview guide](docs/INTERVIEW_GUIDE.md)
