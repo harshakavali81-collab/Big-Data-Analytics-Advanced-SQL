@@ -1,0 +1,13 @@
+services:
+  analytics:
+    build: .
+    image: clickstream-intelligence:local
+    ports:
+      - "127.0.0.1:8501:8501"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m
+      - /home/appuser/.streamlit:size=10m
+    environment:
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"

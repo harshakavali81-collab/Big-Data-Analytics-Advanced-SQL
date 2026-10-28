@@ -130,3 +130,31 @@ GitHub Actions re-runs the test suite and a complete synthetic-data build on eve
 This is an educational local analytic warehouse, not a verified production service or live ecommerce dashboard. Cloud scheduling, sensitive-data governance, enterprise auth, freshness alerting, and independently measured large-scale performance remain separate implementation work.
 
 **Creator:** Kavali Harshavardhan · Python · DuckDB · dbt · Advanced SQL · Streamlit
+
+## Interactive public demo (no account needed)
+
+**[Launch the interactive Clickstream Intelligence dashboard](https://harshakavali81-collab.github.io/harshavardhan-portfolio/bigdata-demo.html)** · [Read the portfolio case study](https://harshakavali81-collab.github.io/harshavardhan-portfolio/cases/big-data-clickstream.html)
+
+Unlike the ten introductory illustrations, this browser interface reads reproducible **computed** synthetic DuckDB/dbt aggregates. It offers date range filtering, KPI cards, real graph rendering, acquisition channels, device breakdown, cohort retention, product analysis and a daily CSV export. See [Public Demo](docs/PUBLIC_DEMO.md) for data boundaries and refresh limitations.
+
+## Containerized local Streamlit application
+
+```bash
+docker compose up --build -d
+# Open http://localhost:8501 in your browser
+docker compose down
+```
+
+The container prepares the warehouse from seed 42 at build time. The public Pages demonstration is separate: it does not run Python, Streamlit or real-time order ingestion.
+
+## Independent quality audit and Parquet support
+
+```bash
+python -m scripts.check_integrity
+python -m scripts.export_parquet
+python -m scripts.benchmark --sessions 10000 --output data/generated/benchmark.json
+```
+
+Parquet exports contain **synthetic events** and are limited to local/CI artifacts, while the public JSON contains aggregate reports only. Benchmark timings depend on the machine and are not cloud throughput guarantees.
+
+[Reproduction](docs/REPRODUCIBILITY.md) · [Security and privacy](docs/SECURITY.md) · [Test matrix](docs/TEST_MATRIX.md) · [Public dashboard details](docs/PUBLIC_DEMO.md)
