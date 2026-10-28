@@ -1,0 +1,18 @@
+name: clickstream
+version: '1.0.0'
+config-version: 2
+profile: clickstream
+model-paths: ['models']
+target-path: '../data/generated/target'
+clean-targets: ['../data/generated/target']
+models:
+  clickstream:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: view
+    marts:
+      +schema: marts
+      +materialized: table

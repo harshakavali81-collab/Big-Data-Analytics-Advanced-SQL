@@ -1,0 +1,25 @@
+version: 2
+models:
+  - name: fct_daily_funnel
+    description: One row per session start date with unique-session conversion.
+    columns:
+      - name: date
+        data_tests: [not_null, unique]
+  - name: fct_channel_performance
+    columns:
+      - name: channel
+        data_tests: [not_null, unique]
+  - name: dim_customers
+    columns:
+      - name: user_id
+        data_tests: [not_null, unique]
+  - name: fct_weekly_retention
+    columns:
+      - name: cohort_week
+        data_tests: [not_null]
+      - name: weeks_since_first
+        data_tests: [not_null]
+  - name: fct_product_performance
+    columns:
+      - name: product_id
+        data_tests: [not_null, unique]

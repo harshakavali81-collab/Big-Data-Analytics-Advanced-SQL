@@ -1,0 +1,22 @@
+version: 2
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: clickstream
+models:
+  - name: stg_events
+    description: Clean, typed, individual synthetic clickstream events.
+    columns:
+      - name: event_id
+        data_tests: [not_null, unique]
+      - name: session_id
+        data_tests: [not_null]
+      - name: user_id
+        data_tests: [not_null]
+      - name: event_ts
+        data_tests: [not_null]
+      - name: event_type
+        data_tests:
+          - accepted_values:
+              values: ['page_view','product_view','add_to_cart','checkout','purchase']

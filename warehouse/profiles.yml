@@ -1,0 +1,7 @@
+clickstream:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: data/generated/clickstream.duckdb
+      threads: 2

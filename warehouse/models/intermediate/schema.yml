@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: int_sessions
+    columns:
+      - name: session_id
+        data_tests: [not_null, unique]
+      - name: user_id
+        data_tests: [not_null]
+      - name: session_start
+        data_tests: [not_null]
