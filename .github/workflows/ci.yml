@@ -39,6 +39,8 @@ jobs:
           Path('dashboard/demo-metrics.json').write_text(json.dumps(x, indent=2)+'\n')
           print('Validated demo snapshot: %d sessions, %d events' % (x['summary']['sessions'],x['event_count']))
           PY
+      - name: Verify interactive report JavaScript and aggregate data contract
+        run: python -m scripts.validate_public_demo --html dashboard/live-demo.html --json dashboard/demo-metrics.json
       - name: Upload reproducible synthetic data/report artifact
         uses: actions/upload-artifact@v4
         with:
