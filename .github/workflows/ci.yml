@@ -3,10 +3,12 @@ on:
   push:
   pull_request:
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   test-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,8 +19,43 @@ jobs:
         run: pip install -r requirements.txt
       - name: Unit tests
         run: python -m pytest -q
-      - name: Build warehouse and validate dbt contracts
-        run: python -m scripts.run_pipeline --sessions 1200 --seed 42 --days 45
-      - name: Verify synthetic dashboard export
+      - name: Build DuckDB/dbt warehouse and validate data contracts
+        run: python -m scripts.run_pipeline --sessions 2500 --seed 42 --days 90
+      - name: Independent audit and partitioned Parquet export
         run: |
-          python -c "import json; d=json.load(open('dashboard/metrics.json')); assert d['source']=='synthetic_generated'; assert d['daily'] and d['channels'] and d['retention']"
+          python -m scripts.check_integrity
+          python -m scripts.export_parquet
+      - name: Validate public snapshot without individual users
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x = json.loads(Path('dashboard/metrics.json').read_text())
+          assert x['source'] == 'synthetic_generated'
+          assert x['summary']['sessions'] == 2500
+          assert x['daily'] and x['retention'] and x['channels'] and x['products'] and x['devices']
+          assert 'customers' not in x
+          assert not any('user_id' in row for key in ['daily', 'channels', 'retention', 'products', 'devices'] for row in x[key])
+          Path('dashboard/demo-metrics.json').write_text(json.dumps(x, indent=2)+'\n')
+          print('Validated demo snapshot: %d sessions, %d events' % (x['summary']['sessions'],x['event_count']))
+          PY
+      - name: Upload reproducible synthetic data/report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-clickstream-warehouse-demo
+          path: |
+            dashboard/demo-metrics.json
+            data/generated/parquet_events/
+          retention-days: 14
+      - name: Publish safe aggregate snapshot to main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add dashboard/demo-metrics.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(data): refresh reproducible synthetic dashboard snapshot [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "Snapshot unchanged"
+          fi

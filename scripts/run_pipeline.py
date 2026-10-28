@@ -1,10 +1,11 @@
-"""One-command local run from the repository root; installs dependencies separately."""
+"""End-to-end deterministic synthetic clickstream warehouse build."""
 from __future__ import annotations
 import argparse
 import subprocess
 import sys
 from generators.generate_clickstream import write_csv
 from scripts.load_duckdb import ingest
+from scripts.export_metrics import export
 
 
 def main():
@@ -17,14 +18,15 @@ def main():
         p.error("--sessions and --days must be positive")
     write_csv("data/generated/clickstream.csv", a.sessions, a.seed, a.days)
     ingest()
-    commands = (
+    for cmd in (
         ["dbt", "run", "--project-dir", "warehouse", "--profiles-dir", "warehouse"],
         ["dbt", "test", "--project-dir", "warehouse", "--profiles-dir", "warehouse"],
-    )
-    for cmd in commands:
+    ):
         subprocess.run(cmd, check=True)
-    subprocess.run([sys.executable, "scripts/export_metrics.py"], check=True)
-    print("Complete: generated synthetic data, DuckDB marts, dbt tests and static dashboard metrics.")
+    snapshot = export(seed=a.seed, days=a.days)
+    assert snapshot["summary"]["sessions"] == a.sessions
+    print("Complete: %d sessions, %d synthetic events, valid DuckDB/dbt marts." %
+          (a.sessions, snapshot["event_count"]))
 
 
 if __name__ == "__main__":
