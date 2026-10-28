@@ -1,0 +1,2311 @@
+{
+  "source": "synthetic_generated",
+  "seed": 42,
+  "simulation_days": 90,
+  "note": "Computed from generated event-level data through DuckDB/dbt; not real commerce.",
+  "currency_label": "Synthetic \u20b9 units",
+  "event_count": 7949,
+  "daily": [
+    {
+      "date": "2026-01-01",
+      "sessions": 34,
+      "active_users": 32,
+      "product_view_sessions": 34,
+      "cart_sessions": 20,
+      "checkout_sessions": 16,
+      "purchasing_sessions": 8,
+      "revenue": 36850.0,
+      "conversion_pct": 23.53,
+      "avg_order_value": 4606.25,
+      "revenue_per_session": 1083.82
+    },
+    {
+      "date": "2026-01-02",
+      "sessions": 19,
+      "active_users": 19,
+      "product_view_sessions": 19,
+      "cart_sessions": 11,
+      "checkout_sessions": 6,
+      "purchasing_sessions": 2,
+      "revenue": 7754.51,
+      "conversion_pct": 10.53,
+      "avg_order_value": 3877.26,
+      "revenue_per_session": 408.13
+    },
+    {
+      "date": "2026-01-03",
+      "sessions": 27,
+      "active_users": 27,
+      "product_view_sessions": 27,
+      "cart_sessions": 14,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 2,
+      "revenue": 5503.87,
+      "conversion_pct": 7.41,
+      "avg_order_value": 2751.94,
+      "revenue_per_session": 203.85
+    },
+    {
+      "date": "2026-01-04",
+      "sessions": 24,
+      "active_users": 24,
+      "product_view_sessions": 24,
+      "cart_sessions": 15,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 4,
+      "revenue": 17784.14,
+      "conversion_pct": 16.67,
+      "avg_order_value": 4446.04,
+      "revenue_per_session": 741.01
+    },
+    {
+      "date": "2026-01-05",
+      "sessions": 22,
+      "active_users": 22,
+      "product_view_sessions": 22,
+      "cart_sessions": 10,
+      "checkout_sessions": 5,
+      "purchasing_sessions": 2,
+      "revenue": 2588.19,
+      "conversion_pct": 9.09,
+      "avg_order_value": 1294.1,
+      "revenue_per_session": 117.65
+    },
+    {
+      "date": "2026-01-06",
+      "sessions": 31,
+      "active_users": 29,
+      "product_view_sessions": 31,
+      "cart_sessions": 22,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 10,
+      "revenue": 45556.64,
+      "conversion_pct": 32.26,
+      "avg_order_value": 4555.66,
+      "revenue_per_session": 1469.57
+    },
+    {
+      "date": "2026-01-07",
+      "sessions": 24,
+      "active_users": 23,
+      "product_view_sessions": 24,
+      "cart_sessions": 17,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 6,
+      "revenue": 13840.74,
+      "conversion_pct": 25.0,
+      "avg_order_value": 2306.79,
+      "revenue_per_session": 576.7
+    },
+    {
+      "date": "2026-01-08",
+      "sessions": 21,
+      "active_users": 21,
+      "product_view_sessions": 21,
+      "cart_sessions": 17,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 3,
+      "revenue": 12666.37,
+      "conversion_pct": 14.29,
+      "avg_order_value": 4222.12,
+      "revenue_per_session": 603.16
+    },
+    {
+      "date": "2026-01-09",
+      "sessions": 30,
+      "active_users": 30,
+      "product_view_sessions": 30,
+      "cart_sessions": 16,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 6,
+      "revenue": 30232.75,
+      "conversion_pct": 20.0,
+      "avg_order_value": 5038.79,
+      "revenue_per_session": 1007.76
+    },
+    {
+      "date": "2026-01-10",
+      "sessions": 35,
+      "active_users": 34,
+      "product_view_sessions": 35,
+      "cart_sessions": 25,
+      "checkout_sessions": 16,
+      "purchasing_sessions": 12,
+      "revenue": 47545.64,
+      "conversion_pct": 34.29,
+      "avg_order_value": 3962.14,
+      "revenue_per_session": 1358.45
+    },
+    {
+      "date": "2026-01-11",
+      "sessions": 30,
+      "active_users": 30,
+      "product_view_sessions": 30,
+      "cart_sessions": 17,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 7,
+      "revenue": 32866.97,
+      "conversion_pct": 23.33,
+      "avg_order_value": 4695.28,
+      "revenue_per_session": 1095.57
+    },
+    {
+      "date": "2026-01-12",
+      "sessions": 21,
+      "active_users": 20,
+      "product_view_sessions": 21,
+      "cart_sessions": 13,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 2,
+      "revenue": 8935.6,
+      "conversion_pct": 9.52,
+      "avg_order_value": 4467.8,
+      "revenue_per_session": 425.5
+    },
+    {
+      "date": "2026-01-13",
+      "sessions": 29,
+      "active_users": 29,
+      "product_view_sessions": 29,
+      "cart_sessions": 19,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 9,
+      "revenue": 42398.86,
+      "conversion_pct": 31.03,
+      "avg_order_value": 4710.98,
+      "revenue_per_session": 1462.03
+    },
+    {
+      "date": "2026-01-14",
+      "sessions": 17,
+      "active_users": 17,
+      "product_view_sessions": 17,
+      "cart_sessions": 14,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 4,
+      "revenue": 20021.05,
+      "conversion_pct": 23.53,
+      "avg_order_value": 5005.26,
+      "revenue_per_session": 1177.71
+    },
+    {
+      "date": "2026-01-15",
+      "sessions": 30,
+      "active_users": 30,
+      "product_view_sessions": 30,
+      "cart_sessions": 18,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 9,
+      "revenue": 36049.8,
+      "conversion_pct": 30.0,
+      "avg_order_value": 4005.53,
+      "revenue_per_session": 1201.66
+    },
+    {
+      "date": "2026-01-16",
+      "sessions": 36,
+      "active_users": 34,
+      "product_view_sessions": 36,
+      "cart_sessions": 23,
+      "checkout_sessions": 17,
+      "purchasing_sessions": 11,
+      "revenue": 47615.14,
+      "conversion_pct": 30.56,
+      "avg_order_value": 4328.65,
+      "revenue_per_session": 1322.64
+    },
+    {
+      "date": "2026-01-17",
+      "sessions": 34,
+      "active_users": 33,
+      "product_view_sessions": 34,
+      "cart_sessions": 20,
+      "checkout_sessions": 15,
+      "purchasing_sessions": 5,
+      "revenue": 24318.24,
+      "conversion_pct": 14.71,
+      "avg_order_value": 4863.65,
+      "revenue_per_session": 715.24
+    },
+    {
+      "date": "2026-01-18",
+      "sessions": 41,
+      "active_users": 38,
+      "product_view_sessions": 41,
+      "cart_sessions": 18,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 7,
+      "revenue": 31187.99,
+      "conversion_pct": 17.07,
+      "avg_order_value": 4455.43,
+      "revenue_per_session": 760.68
+    },
+    {
+      "date": "2026-01-19",
+      "sessions": 28,
+      "active_users": 27,
+      "product_view_sessions": 28,
+      "cart_sessions": 16,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 6,
+      "revenue": 31649.03,
+      "conversion_pct": 21.43,
+      "avg_order_value": 5274.84,
+      "revenue_per_session": 1130.32
+    },
+    {
+      "date": "2026-01-20",
+      "sessions": 26,
+      "active_users": 26,
+      "product_view_sessions": 26,
+      "cart_sessions": 19,
+      "checkout_sessions": 6,
+      "purchasing_sessions": 4,
+      "revenue": 20952.66,
+      "conversion_pct": 15.38,
+      "avg_order_value": 5238.17,
+      "revenue_per_session": 805.87
+    },
+    {
+      "date": "2026-01-21",
+      "sessions": 23,
+      "active_users": 23,
+      "product_view_sessions": 23,
+      "cart_sessions": 18,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 4,
+      "revenue": 18029.84,
+      "conversion_pct": 17.39,
+      "avg_order_value": 4507.46,
+      "revenue_per_session": 783.91
+    },
+    {
+      "date": "2026-01-22",
+      "sessions": 31,
+      "active_users": 30,
+      "product_view_sessions": 31,
+      "cart_sessions": 23,
+      "checkout_sessions": 17,
+      "purchasing_sessions": 6,
+      "revenue": 39775.58,
+      "conversion_pct": 19.35,
+      "avg_order_value": 6629.26,
+      "revenue_per_session": 1283.08
+    },
+    {
+      "date": "2026-01-23",
+      "sessions": 36,
+      "active_users": 35,
+      "product_view_sessions": 36,
+      "cart_sessions": 26,
+      "checkout_sessions": 17,
+      "purchasing_sessions": 9,
+      "revenue": 37304.22,
+      "conversion_pct": 25.0,
+      "avg_order_value": 4144.91,
+      "revenue_per_session": 1036.23
+    },
+    {
+      "date": "2026-01-24",
+      "sessions": 17,
+      "active_users": 17,
+      "product_view_sessions": 17,
+      "cart_sessions": 9,
+      "checkout_sessions": 5,
+      "purchasing_sessions": 0,
+      "revenue": 0.0,
+      "conversion_pct": 0.0,
+      "avg_order_value": null,
+      "revenue_per_session": 0.0
+    },
+    {
+      "date": "2026-01-25",
+      "sessions": 26,
+      "active_users": 26,
+      "product_view_sessions": 26,
+      "cart_sessions": 18,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 7,
+      "revenue": 47496.71,
+      "conversion_pct": 26.92,
+      "avg_order_value": 6785.24,
+      "revenue_per_session": 1826.8
+    },
+    {
+      "date": "2026-01-26",
+      "sessions": 28,
+      "active_users": 28,
+      "product_view_sessions": 28,
+      "cart_sessions": 13,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 5,
+      "revenue": 20699.37,
+      "conversion_pct": 17.86,
+      "avg_order_value": 4139.87,
+      "revenue_per_session": 739.26
+    },
+    {
+      "date": "2026-01-27",
+      "sessions": 20,
+      "active_users": 20,
+      "product_view_sessions": 20,
+      "cart_sessions": 14,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 5,
+      "revenue": 13539.06,
+      "conversion_pct": 25.0,
+      "avg_order_value": 2707.81,
+      "revenue_per_session": 676.95
+    },
+    {
+      "date": "2026-01-28",
+      "sessions": 25,
+      "active_users": 24,
+      "product_view_sessions": 25,
+      "cart_sessions": 14,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 3,
+      "revenue": 18071.22,
+      "conversion_pct": 12.0,
+      "avg_order_value": 6023.74,
+      "revenue_per_session": 722.85
+    },
+    {
+      "date": "2026-01-29",
+      "sessions": 25,
+      "active_users": 24,
+      "product_view_sessions": 25,
+      "cart_sessions": 14,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 2,
+      "revenue": 13071.42,
+      "conversion_pct": 8.0,
+      "avg_order_value": 6535.71,
+      "revenue_per_session": 522.86
+    },
+    {
+      "date": "2026-01-30",
+      "sessions": 22,
+      "active_users": 21,
+      "product_view_sessions": 22,
+      "cart_sessions": 14,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 5,
+      "revenue": 34002.38,
+      "conversion_pct": 22.73,
+      "avg_order_value": 6800.48,
+      "revenue_per_session": 1545.56
+    },
+    {
+      "date": "2026-01-31",
+      "sessions": 33,
+      "active_users": 31,
+      "product_view_sessions": 33,
+      "cart_sessions": 19,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 9,
+      "revenue": 41095.26,
+      "conversion_pct": 27.27,
+      "avg_order_value": 4566.14,
+      "revenue_per_session": 1245.31
+    },
+    {
+      "date": "2026-02-01",
+      "sessions": 25,
+      "active_users": 25,
+      "product_view_sessions": 25,
+      "cart_sessions": 15,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 9,
+      "revenue": 48316.63,
+      "conversion_pct": 36.0,
+      "avg_order_value": 5368.51,
+      "revenue_per_session": 1932.67
+    },
+    {
+      "date": "2026-02-02",
+      "sessions": 32,
+      "active_users": 32,
+      "product_view_sessions": 32,
+      "cart_sessions": 20,
+      "checkout_sessions": 14,
+      "purchasing_sessions": 10,
+      "revenue": 42067.27,
+      "conversion_pct": 31.25,
+      "avg_order_value": 4206.73,
+      "revenue_per_session": 1314.6
+    },
+    {
+      "date": "2026-02-03",
+      "sessions": 28,
+      "active_users": 26,
+      "product_view_sessions": 28,
+      "cart_sessions": 15,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 6,
+      "revenue": 24430.41,
+      "conversion_pct": 21.43,
+      "avg_order_value": 4071.74,
+      "revenue_per_session": 872.51
+    },
+    {
+      "date": "2026-02-04",
+      "sessions": 28,
+      "active_users": 28,
+      "product_view_sessions": 28,
+      "cart_sessions": 19,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 5,
+      "revenue": 18159.09,
+      "conversion_pct": 17.86,
+      "avg_order_value": 3631.82,
+      "revenue_per_session": 648.54
+    },
+    {
+      "date": "2026-02-05",
+      "sessions": 31,
+      "active_users": 28,
+      "product_view_sessions": 31,
+      "cart_sessions": 18,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 7,
+      "revenue": 34637.09,
+      "conversion_pct": 22.58,
+      "avg_order_value": 4948.16,
+      "revenue_per_session": 1117.33
+    },
+    {
+      "date": "2026-02-06",
+      "sessions": 22,
+      "active_users": 22,
+      "product_view_sessions": 22,
+      "cart_sessions": 16,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 6,
+      "revenue": 22617.29,
+      "conversion_pct": 27.27,
+      "avg_order_value": 3769.55,
+      "revenue_per_session": 1028.06
+    },
+    {
+      "date": "2026-02-07",
+      "sessions": 30,
+      "active_users": 30,
+      "product_view_sessions": 30,
+      "cart_sessions": 17,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 6,
+      "revenue": 37425.19,
+      "conversion_pct": 20.0,
+      "avg_order_value": 6237.53,
+      "revenue_per_session": 1247.51
+    },
+    {
+      "date": "2026-02-08",
+      "sessions": 27,
+      "active_users": 26,
+      "product_view_sessions": 27,
+      "cart_sessions": 21,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 7,
+      "revenue": 36735.5,
+      "conversion_pct": 25.93,
+      "avg_order_value": 5247.93,
+      "revenue_per_session": 1360.57
+    },
+    {
+      "date": "2026-02-09",
+      "sessions": 31,
+      "active_users": 29,
+      "product_view_sessions": 31,
+      "cart_sessions": 22,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 6,
+      "revenue": 36892.68,
+      "conversion_pct": 19.35,
+      "avg_order_value": 6148.78,
+      "revenue_per_session": 1190.09
+    },
+    {
+      "date": "2026-02-10",
+      "sessions": 28,
+      "active_users": 28,
+      "product_view_sessions": 28,
+      "cart_sessions": 16,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 4,
+      "revenue": 16994.14,
+      "conversion_pct": 14.29,
+      "avg_order_value": 4248.54,
+      "revenue_per_session": 606.93
+    },
+    {
+      "date": "2026-02-11",
+      "sessions": 31,
+      "active_users": 31,
+      "product_view_sessions": 31,
+      "cart_sessions": 18,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 5,
+      "revenue": 14694.05,
+      "conversion_pct": 16.13,
+      "avg_order_value": 2938.81,
+      "revenue_per_session": 474.0
+    },
+    {
+      "date": "2026-02-12",
+      "sessions": 29,
+      "active_users": 28,
+      "product_view_sessions": 29,
+      "cart_sessions": 21,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 8,
+      "revenue": 35219.18,
+      "conversion_pct": 27.59,
+      "avg_order_value": 4402.4,
+      "revenue_per_session": 1214.45
+    },
+    {
+      "date": "2026-02-13",
+      "sessions": 24,
+      "active_users": 24,
+      "product_view_sessions": 24,
+      "cart_sessions": 15,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 7,
+      "revenue": 16471.63,
+      "conversion_pct": 29.17,
+      "avg_order_value": 2353.09,
+      "revenue_per_session": 686.32
+    },
+    {
+      "date": "2026-02-14",
+      "sessions": 31,
+      "active_users": 30,
+      "product_view_sessions": 31,
+      "cart_sessions": 19,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 6,
+      "revenue": 31683.82,
+      "conversion_pct": 19.35,
+      "avg_order_value": 5280.64,
+      "revenue_per_session": 1022.06
+    },
+    {
+      "date": "2026-02-15",
+      "sessions": 24,
+      "active_users": 24,
+      "product_view_sessions": 24,
+      "cart_sessions": 15,
+      "checkout_sessions": 6,
+      "purchasing_sessions": 3,
+      "revenue": 8448.74,
+      "conversion_pct": 12.5,
+      "avg_order_value": 2816.25,
+      "revenue_per_session": 352.03
+    },
+    {
+      "date": "2026-02-16",
+      "sessions": 33,
+      "active_users": 32,
+      "product_view_sessions": 33,
+      "cart_sessions": 21,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 7,
+      "revenue": 32058.64,
+      "conversion_pct": 21.21,
+      "avg_order_value": 4579.81,
+      "revenue_per_session": 971.47
+    },
+    {
+      "date": "2026-02-17",
+      "sessions": 29,
+      "active_users": 28,
+      "product_view_sessions": 29,
+      "cart_sessions": 17,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 8,
+      "revenue": 41487.28,
+      "conversion_pct": 27.59,
+      "avg_order_value": 5185.91,
+      "revenue_per_session": 1430.6
+    },
+    {
+      "date": "2026-02-18",
+      "sessions": 28,
+      "active_users": 28,
+      "product_view_sessions": 28,
+      "cart_sessions": 17,
+      "checkout_sessions": 12,
+      "purchasing_sessions": 5,
+      "revenue": 29367.88,
+      "conversion_pct": 17.86,
+      "avg_order_value": 5873.58,
+      "revenue_per_session": 1048.85
+    },
+    {
+      "date": "2026-02-19",
+      "sessions": 25,
+      "active_users": 25,
+      "product_view_sessions": 25,
+      "cart_sessions": 15,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 5,
+      "revenue": 26812.05,
+      "conversion_pct": 20.0,
+      "avg_order_value": 5362.41,
+      "revenue_per_session": 1072.48
+    },
+    {
+      "date": "2026-02-20",
+      "sessions": 26,
+      "active_users": 26,
+      "product_view_sessions": 26,
+      "cart_sessions": 16,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 3,
+      "revenue": 22881.96,
+      "conversion_pct": 11.54,
+      "avg_order_value": 7627.32,
+      "revenue_per_session": 880.08
+    },
+    {
+      "date": "2026-02-21",
+      "sessions": 20,
+      "active_users": 20,
+      "product_view_sessions": 20,
+      "cart_sessions": 12,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 3,
+      "revenue": 12780.99,
+      "conversion_pct": 15.0,
+      "avg_order_value": 4260.33,
+      "revenue_per_session": 639.05
+    },
+    {
+      "date": "2026-02-22",
+      "sessions": 17,
+      "active_users": 17,
+      "product_view_sessions": 17,
+      "cart_sessions": 12,
+      "checkout_sessions": 5,
+      "purchasing_sessions": 1,
+      "revenue": 5381.33,
+      "conversion_pct": 5.88,
+      "avg_order_value": 5381.33,
+      "revenue_per_session": 316.55
+    },
+    {
+      "date": "2026-02-23",
+      "sessions": 34,
+      "active_users": 33,
+      "product_view_sessions": 34,
+      "cart_sessions": 23,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 4,
+      "revenue": 19483.37,
+      "conversion_pct": 11.76,
+      "avg_order_value": 4870.84,
+      "revenue_per_session": 573.04
+    },
+    {
+      "date": "2026-02-24",
+      "sessions": 24,
+      "active_users": 24,
+      "product_view_sessions": 24,
+      "cart_sessions": 15,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 5,
+      "revenue": 25496.17,
+      "conversion_pct": 20.83,
+      "avg_order_value": 5099.23,
+      "revenue_per_session": 1062.34
+    },
+    {
+      "date": "2026-02-25",
+      "sessions": 30,
+      "active_users": 30,
+      "product_view_sessions": 30,
+      "cart_sessions": 18,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 9,
+      "revenue": 45268.62,
+      "conversion_pct": 30.0,
+      "avg_order_value": 5029.85,
+      "revenue_per_session": 1508.95
+    },
+    {
+      "date": "2026-02-26",
+      "sessions": 39,
+      "active_users": 38,
+      "product_view_sessions": 39,
+      "cart_sessions": 23,
+      "checkout_sessions": 21,
+      "purchasing_sessions": 14,
+      "revenue": 70827.15,
+      "conversion_pct": 35.9,
+      "avg_order_value": 5059.08,
+      "revenue_per_session": 1816.08
+    },
+    {
+      "date": "2026-02-27",
+      "sessions": 29,
+      "active_users": 29,
+      "product_view_sessions": 29,
+      "cart_sessions": 21,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 5,
+      "revenue": 14110.33,
+      "conversion_pct": 17.24,
+      "avg_order_value": 2822.07,
+      "revenue_per_session": 486.56
+    },
+    {
+      "date": "2026-02-28",
+      "sessions": 35,
+      "active_users": 34,
+      "product_view_sessions": 35,
+      "cart_sessions": 22,
+      "checkout_sessions": 14,
+      "purchasing_sessions": 5,
+      "revenue": 24529.36,
+      "conversion_pct": 14.29,
+      "avg_order_value": 4905.87,
+      "revenue_per_session": 700.84
+    },
+    {
+      "date": "2026-03-01",
+      "sessions": 27,
+      "active_users": 27,
+      "product_view_sessions": 27,
+      "cart_sessions": 17,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 7,
+      "revenue": 31746.46,
+      "conversion_pct": 25.93,
+      "avg_order_value": 4535.21,
+      "revenue_per_session": 1175.79
+    },
+    {
+      "date": "2026-03-02",
+      "sessions": 26,
+      "active_users": 25,
+      "product_view_sessions": 26,
+      "cart_sessions": 15,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 7,
+      "revenue": 39865.8,
+      "conversion_pct": 26.92,
+      "avg_order_value": 5695.11,
+      "revenue_per_session": 1533.3
+    },
+    {
+      "date": "2026-03-03",
+      "sessions": 33,
+      "active_users": 33,
+      "product_view_sessions": 33,
+      "cart_sessions": 18,
+      "checkout_sessions": 14,
+      "purchasing_sessions": 10,
+      "revenue": 51667.16,
+      "conversion_pct": 30.3,
+      "avg_order_value": 5166.72,
+      "revenue_per_session": 1565.67
+    },
+    {
+      "date": "2026-03-04",
+      "sessions": 36,
+      "active_users": 35,
+      "product_view_sessions": 36,
+      "cart_sessions": 18,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 6,
+      "revenue": 23899.47,
+      "conversion_pct": 16.67,
+      "avg_order_value": 3983.25,
+      "revenue_per_session": 663.87
+    },
+    {
+      "date": "2026-03-05",
+      "sessions": 23,
+      "active_users": 23,
+      "product_view_sessions": 23,
+      "cart_sessions": 13,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 5,
+      "revenue": 20517.64,
+      "conversion_pct": 21.74,
+      "avg_order_value": 4103.53,
+      "revenue_per_session": 892.07
+    },
+    {
+      "date": "2026-03-06",
+      "sessions": 28,
+      "active_users": 27,
+      "product_view_sessions": 28,
+      "cart_sessions": 16,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 9,
+      "revenue": 51649.71,
+      "conversion_pct": 32.14,
+      "avg_order_value": 5738.86,
+      "revenue_per_session": 1844.63
+    },
+    {
+      "date": "2026-03-07",
+      "sessions": 24,
+      "active_users": 24,
+      "product_view_sessions": 24,
+      "cart_sessions": 13,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 7,
+      "revenue": 18047.57,
+      "conversion_pct": 29.17,
+      "avg_order_value": 2578.22,
+      "revenue_per_session": 751.98
+    },
+    {
+      "date": "2026-03-08",
+      "sessions": 33,
+      "active_users": 32,
+      "product_view_sessions": 33,
+      "cart_sessions": 19,
+      "checkout_sessions": 6,
+      "purchasing_sessions": 0,
+      "revenue": 0.0,
+      "conversion_pct": 0.0,
+      "avg_order_value": null,
+      "revenue_per_session": 0.0
+    },
+    {
+      "date": "2026-03-09",
+      "sessions": 36,
+      "active_users": 36,
+      "product_view_sessions": 36,
+      "cart_sessions": 20,
+      "checkout_sessions": 14,
+      "purchasing_sessions": 12,
+      "revenue": 56204.53,
+      "conversion_pct": 33.33,
+      "avg_order_value": 4683.71,
+      "revenue_per_session": 1561.24
+    },
+    {
+      "date": "2026-03-10",
+      "sessions": 26,
+      "active_users": 26,
+      "product_view_sessions": 26,
+      "cart_sessions": 12,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 3,
+      "revenue": 4433.58,
+      "conversion_pct": 11.54,
+      "avg_order_value": 1477.86,
+      "revenue_per_session": 170.52
+    },
+    {
+      "date": "2026-03-11",
+      "sessions": 25,
+      "active_users": 24,
+      "product_view_sessions": 25,
+      "cart_sessions": 12,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 5,
+      "revenue": 21812.46,
+      "conversion_pct": 20.0,
+      "avg_order_value": 4362.49,
+      "revenue_per_session": 872.5
+    },
+    {
+      "date": "2026-03-12",
+      "sessions": 29,
+      "active_users": 29,
+      "product_view_sessions": 29,
+      "cart_sessions": 19,
+      "checkout_sessions": 14,
+      "purchasing_sessions": 8,
+      "revenue": 47025.95,
+      "conversion_pct": 27.59,
+      "avg_order_value": 5878.24,
+      "revenue_per_session": 1621.58
+    },
+    {
+      "date": "2026-03-13",
+      "sessions": 23,
+      "active_users": 23,
+      "product_view_sessions": 23,
+      "cart_sessions": 9,
+      "checkout_sessions": 3,
+      "purchasing_sessions": 2,
+      "revenue": 13720.21,
+      "conversion_pct": 8.7,
+      "avg_order_value": 6860.11,
+      "revenue_per_session": 596.53
+    },
+    {
+      "date": "2026-03-14",
+      "sessions": 27,
+      "active_users": 26,
+      "product_view_sessions": 27,
+      "cart_sessions": 18,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 5,
+      "revenue": 24178.43,
+      "conversion_pct": 18.52,
+      "avg_order_value": 4835.69,
+      "revenue_per_session": 895.5
+    },
+    {
+      "date": "2026-03-15",
+      "sessions": 35,
+      "active_users": 35,
+      "product_view_sessions": 35,
+      "cart_sessions": 20,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 3,
+      "revenue": 19123.96,
+      "conversion_pct": 8.57,
+      "avg_order_value": 6374.65,
+      "revenue_per_session": 546.4
+    },
+    {
+      "date": "2026-03-16",
+      "sessions": 35,
+      "active_users": 33,
+      "product_view_sessions": 35,
+      "cart_sessions": 18,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 4,
+      "revenue": 15830.65,
+      "conversion_pct": 11.43,
+      "avg_order_value": 3957.66,
+      "revenue_per_session": 452.3
+    },
+    {
+      "date": "2026-03-17",
+      "sessions": 29,
+      "active_users": 29,
+      "product_view_sessions": 29,
+      "cart_sessions": 17,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 5,
+      "revenue": 23843.63,
+      "conversion_pct": 17.24,
+      "avg_order_value": 4768.73,
+      "revenue_per_session": 822.19
+    },
+    {
+      "date": "2026-03-18",
+      "sessions": 39,
+      "active_users": 39,
+      "product_view_sessions": 39,
+      "cart_sessions": 20,
+      "checkout_sessions": 13,
+      "purchasing_sessions": 8,
+      "revenue": 42365.89,
+      "conversion_pct": 20.51,
+      "avg_order_value": 5295.74,
+      "revenue_per_session": 1086.3
+    },
+    {
+      "date": "2026-03-19",
+      "sessions": 27,
+      "active_users": 26,
+      "product_view_sessions": 27,
+      "cart_sessions": 15,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 6,
+      "revenue": 16459.61,
+      "conversion_pct": 22.22,
+      "avg_order_value": 2743.27,
+      "revenue_per_session": 609.62
+    },
+    {
+      "date": "2026-03-20",
+      "sessions": 23,
+      "active_users": 22,
+      "product_view_sessions": 23,
+      "cart_sessions": 9,
+      "checkout_sessions": 5,
+      "purchasing_sessions": 3,
+      "revenue": 11820.82,
+      "conversion_pct": 13.04,
+      "avg_order_value": 3940.27,
+      "revenue_per_session": 513.95
+    },
+    {
+      "date": "2026-03-21",
+      "sessions": 42,
+      "active_users": 40,
+      "product_view_sessions": 42,
+      "cart_sessions": 25,
+      "checkout_sessions": 15,
+      "purchasing_sessions": 11,
+      "revenue": 45135.22,
+      "conversion_pct": 26.19,
+      "avg_order_value": 4103.2,
+      "revenue_per_session": 1074.65
+    },
+    {
+      "date": "2026-03-22",
+      "sessions": 20,
+      "active_users": 20,
+      "product_view_sessions": 20,
+      "cart_sessions": 9,
+      "checkout_sessions": 7,
+      "purchasing_sessions": 2,
+      "revenue": 5872.72,
+      "conversion_pct": 10.0,
+      "avg_order_value": 2936.36,
+      "revenue_per_session": 293.64
+    },
+    {
+      "date": "2026-03-23",
+      "sessions": 19,
+      "active_users": 19,
+      "product_view_sessions": 19,
+      "cart_sessions": 11,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 3,
+      "revenue": 16592.49,
+      "conversion_pct": 15.79,
+      "avg_order_value": 5530.83,
+      "revenue_per_session": 873.29
+    },
+    {
+      "date": "2026-03-24",
+      "sessions": 23,
+      "active_users": 21,
+      "product_view_sessions": 23,
+      "cart_sessions": 14,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 5,
+      "revenue": 17793.81,
+      "conversion_pct": 21.74,
+      "avg_order_value": 3558.76,
+      "revenue_per_session": 773.64
+    },
+    {
+      "date": "2026-03-25",
+      "sessions": 25,
+      "active_users": 25,
+      "product_view_sessions": 25,
+      "cart_sessions": 13,
+      "checkout_sessions": 4,
+      "purchasing_sessions": 2,
+      "revenue": 5984.89,
+      "conversion_pct": 8.0,
+      "avg_order_value": 2992.45,
+      "revenue_per_session": 239.4
+    },
+    {
+      "date": "2026-03-26",
+      "sessions": 26,
+      "active_users": 26,
+      "product_view_sessions": 26,
+      "cart_sessions": 18,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 7,
+      "revenue": 39955.77,
+      "conversion_pct": 26.92,
+      "avg_order_value": 5707.97,
+      "revenue_per_session": 1536.76
+    },
+    {
+      "date": "2026-03-27",
+      "sessions": 28,
+      "active_users": 27,
+      "product_view_sessions": 28,
+      "cart_sessions": 20,
+      "checkout_sessions": 10,
+      "purchasing_sessions": 6,
+      "revenue": 18811.23,
+      "conversion_pct": 21.43,
+      "avg_order_value": 3135.21,
+      "revenue_per_session": 671.83
+    },
+    {
+      "date": "2026-03-28",
+      "sessions": 26,
+      "active_users": 26,
+      "product_view_sessions": 26,
+      "cart_sessions": 16,
+      "checkout_sessions": 8,
+      "purchasing_sessions": 3,
+      "revenue": 16536.07,
+      "conversion_pct": 11.54,
+      "avg_order_value": 5512.02,
+      "revenue_per_session": 636.0
+    },
+    {
+      "date": "2026-03-29",
+      "sessions": 25,
+      "active_users": 25,
+      "product_view_sessions": 25,
+      "cart_sessions": 13,
+      "checkout_sessions": 9,
+      "purchasing_sessions": 6,
+      "revenue": 32577.97,
+      "conversion_pct": 24.0,
+      "avg_order_value": 5429.66,
+      "revenue_per_session": 1303.12
+    },
+    {
+      "date": "2026-03-30",
+      "sessions": 26,
+      "active_users": 26,
+      "product_view_sessions": 26,
+      "cart_sessions": 19,
+      "checkout_sessions": 11,
+      "purchasing_sessions": 8,
+      "revenue": 28554.19,
+      "conversion_pct": 30.77,
+      "avg_order_value": 3569.27,
+      "revenue_per_session": 1098.24
+    },
+    {
+      "date": "2026-03-31",
+      "sessions": 21,
+      "active_users": 21,
+      "product_view_sessions": 21,
+      "cart_sessions": 14,
+      "checkout_sessions": 6,
+      "purchasing_sessions": 6,
+      "revenue": 36915.66,
+      "conversion_pct": 28.57,
+      "avg_order_value": 6152.61,
+      "revenue_per_session": 1757.89
+    }
+  ],
+  "channels": [
+    {
+      "channel": "organic",
+      "sessions": 665,
+      "users": 451,
+      "orders": 127,
+      "revenue": 590780.27,
+      "conversion_pct": 19.1,
+      "average_order_value": 4651.81
+    },
+    {
+      "channel": "paid_search",
+      "sessions": 531,
+      "users": 394,
+      "orders": 106,
+      "revenue": 474505.3,
+      "conversion_pct": 19.96,
+      "average_order_value": 4476.47
+    },
+    {
+      "channel": "direct",
+      "sessions": 423,
+      "users": 330,
+      "orders": 91,
+      "revenue": 427253.93,
+      "conversion_pct": 21.51,
+      "average_order_value": 4695.1
+    },
+    {
+      "channel": "social",
+      "sessions": 395,
+      "users": 318,
+      "orders": 96,
+      "revenue": 424359.77,
+      "conversion_pct": 24.3,
+      "average_order_value": 4420.41
+    },
+    {
+      "channel": "email",
+      "sessions": 360,
+      "users": 294,
+      "orders": 75,
+      "revenue": 358469.89,
+      "conversion_pct": 20.83,
+      "average_order_value": 4779.6
+    },
+    {
+      "channel": "referral",
+      "sessions": 126,
+      "users": 118,
+      "orders": 22,
+      "revenue": 118255.48,
+      "conversion_pct": 17.46,
+      "average_order_value": 5375.25
+    }
+  ],
+  "retention": [
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 0,
+      "cohort_size": 97,
+      "retained_users": 97,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 1,
+      "cohort_size": 97,
+      "retained_users": 26,
+      "retention_pct": 26.8
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 2,
+      "cohort_size": 97,
+      "retained_users": 20,
+      "retention_pct": 20.62
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 3,
+      "cohort_size": 97,
+      "retained_users": 17,
+      "retention_pct": 17.53
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 4,
+      "cohort_size": 97,
+      "retained_users": 25,
+      "retention_pct": 25.77
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 5,
+      "cohort_size": 97,
+      "retained_users": 15,
+      "retention_pct": 15.46
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 6,
+      "cohort_size": 97,
+      "retained_users": 17,
+      "retention_pct": 17.53
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 7,
+      "cohort_size": 97,
+      "retained_users": 18,
+      "retention_pct": 18.56
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 8,
+      "cohort_size": 97,
+      "retained_users": 27,
+      "retention_pct": 27.84
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 9,
+      "cohort_size": 97,
+      "retained_users": 14,
+      "retention_pct": 14.43
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 10,
+      "cohort_size": 97,
+      "retained_users": 24,
+      "retention_pct": 24.74
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 11,
+      "cohort_size": 97,
+      "retained_users": 16,
+      "retention_pct": 16.49
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 12,
+      "cohort_size": 97,
+      "retained_users": 19,
+      "retention_pct": 19.59
+    },
+    {
+      "cohort_week": "2025-12-29",
+      "weeks_since_first": 13,
+      "cohort_size": 97,
+      "retained_users": 5,
+      "retention_pct": 5.15
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 0,
+      "cohort_size": 149,
+      "retained_users": 149,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 1,
+      "cohort_size": 149,
+      "retained_users": 29,
+      "retention_pct": 19.46
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 2,
+      "cohort_size": 149,
+      "retained_users": 29,
+      "retention_pct": 19.46
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 3,
+      "cohort_size": 149,
+      "retained_users": 24,
+      "retention_pct": 16.11
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 4,
+      "cohort_size": 149,
+      "retained_users": 21,
+      "retention_pct": 14.09
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 5,
+      "cohort_size": 149,
+      "retained_users": 36,
+      "retention_pct": 24.16
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 6,
+      "cohort_size": 149,
+      "retained_users": 31,
+      "retention_pct": 20.81
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 7,
+      "cohort_size": 149,
+      "retained_users": 35,
+      "retention_pct": 23.49
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 8,
+      "cohort_size": 149,
+      "retained_users": 34,
+      "retention_pct": 22.82
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 9,
+      "cohort_size": 149,
+      "retained_users": 33,
+      "retention_pct": 22.15
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 10,
+      "cohort_size": 149,
+      "retained_users": 27,
+      "retention_pct": 18.12
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 11,
+      "cohort_size": 149,
+      "retained_users": 31,
+      "retention_pct": 20.81
+    },
+    {
+      "cohort_week": "2026-01-05",
+      "weeks_since_first": 12,
+      "cohort_size": 149,
+      "retained_users": 7,
+      "retention_pct": 4.7
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 0,
+      "cohort_size": 132,
+      "retained_users": 132,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 1,
+      "cohort_size": 132,
+      "retained_users": 28,
+      "retention_pct": 21.21
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 2,
+      "cohort_size": 132,
+      "retained_users": 24,
+      "retention_pct": 18.18
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 3,
+      "cohort_size": 132,
+      "retained_users": 33,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 4,
+      "cohort_size": 132,
+      "retained_users": 32,
+      "retention_pct": 24.24
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 5,
+      "cohort_size": 132,
+      "retained_users": 33,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 6,
+      "cohort_size": 132,
+      "retained_users": 32,
+      "retention_pct": 24.24
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 7,
+      "cohort_size": 132,
+      "retained_users": 31,
+      "retention_pct": 23.48
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 8,
+      "cohort_size": 132,
+      "retained_users": 28,
+      "retention_pct": 21.21
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 9,
+      "cohort_size": 132,
+      "retained_users": 40,
+      "retention_pct": 30.3
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 10,
+      "cohort_size": 132,
+      "retained_users": 23,
+      "retention_pct": 17.42
+    },
+    {
+      "cohort_week": "2026-01-12",
+      "weeks_since_first": 11,
+      "cohort_size": 132,
+      "retained_users": 4,
+      "retention_pct": 3.03
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 0,
+      "cohort_size": 82,
+      "retained_users": 82,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 1,
+      "cohort_size": 82,
+      "retained_users": 20,
+      "retention_pct": 24.39
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 2,
+      "cohort_size": 82,
+      "retained_users": 20,
+      "retention_pct": 24.39
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 3,
+      "cohort_size": 82,
+      "retained_users": 14,
+      "retention_pct": 17.07
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 4,
+      "cohort_size": 82,
+      "retained_users": 17,
+      "retention_pct": 20.73
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 5,
+      "cohort_size": 82,
+      "retained_users": 22,
+      "retention_pct": 26.83
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 6,
+      "cohort_size": 82,
+      "retained_users": 20,
+      "retention_pct": 24.39
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 7,
+      "cohort_size": 82,
+      "retained_users": 18,
+      "retention_pct": 21.95
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 8,
+      "cohort_size": 82,
+      "retained_users": 18,
+      "retention_pct": 21.95
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 9,
+      "cohort_size": 82,
+      "retained_users": 15,
+      "retention_pct": 18.29
+    },
+    {
+      "cohort_week": "2026-01-19",
+      "weeks_since_first": 10,
+      "cohort_size": 82,
+      "retained_users": 3,
+      "retention_pct": 3.66
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 0,
+      "cohort_size": 70,
+      "retained_users": 70,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 1,
+      "cohort_size": 70,
+      "retained_users": 18,
+      "retention_pct": 25.71
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 2,
+      "cohort_size": 70,
+      "retained_users": 19,
+      "retention_pct": 27.14
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 3,
+      "cohort_size": 70,
+      "retained_users": 19,
+      "retention_pct": 27.14
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 4,
+      "cohort_size": 70,
+      "retained_users": 11,
+      "retention_pct": 15.71
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 5,
+      "cohort_size": 70,
+      "retained_users": 13,
+      "retention_pct": 18.57
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 6,
+      "cohort_size": 70,
+      "retained_users": 14,
+      "retention_pct": 20.0
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 7,
+      "cohort_size": 70,
+      "retained_users": 14,
+      "retention_pct": 20.0
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 8,
+      "cohort_size": 70,
+      "retained_users": 12,
+      "retention_pct": 17.14
+    },
+    {
+      "cohort_week": "2026-01-26",
+      "weeks_since_first": 9,
+      "cohort_size": 70,
+      "retained_users": 9,
+      "retention_pct": 12.86
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 0,
+      "cohort_size": 69,
+      "retained_users": 69,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 1,
+      "cohort_size": 69,
+      "retained_users": 9,
+      "retention_pct": 13.04
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 2,
+      "cohort_size": 69,
+      "retained_users": 9,
+      "retention_pct": 13.04
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 3,
+      "cohort_size": 69,
+      "retained_users": 18,
+      "retention_pct": 26.09
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 4,
+      "cohort_size": 69,
+      "retained_users": 23,
+      "retention_pct": 33.33
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 5,
+      "cohort_size": 69,
+      "retained_users": 15,
+      "retention_pct": 21.74
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 6,
+      "cohort_size": 69,
+      "retained_users": 12,
+      "retention_pct": 17.39
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 7,
+      "cohort_size": 69,
+      "retained_users": 12,
+      "retention_pct": 17.39
+    },
+    {
+      "cohort_week": "2026-02-02",
+      "weeks_since_first": 8,
+      "cohort_size": 69,
+      "retained_users": 6,
+      "retention_pct": 8.7
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 0,
+      "cohort_size": 48,
+      "retained_users": 48,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 1,
+      "cohort_size": 48,
+      "retained_users": 12,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 2,
+      "cohort_size": 48,
+      "retained_users": 13,
+      "retention_pct": 27.08
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 3,
+      "cohort_size": 48,
+      "retained_users": 9,
+      "retention_pct": 18.75
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 4,
+      "cohort_size": 48,
+      "retained_users": 6,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 5,
+      "cohort_size": 48,
+      "retained_users": 14,
+      "retention_pct": 29.17
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 6,
+      "cohort_size": 48,
+      "retained_users": 10,
+      "retention_pct": 20.83
+    },
+    {
+      "cohort_week": "2026-02-09",
+      "weeks_since_first": 7,
+      "cohort_size": 48,
+      "retained_users": 3,
+      "retention_pct": 6.25
+    },
+    {
+      "cohort_week": "2026-02-16",
+      "weeks_since_first": 0,
+      "cohort_size": 24,
+      "retained_users": 24,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-02-16",
+      "weeks_since_first": 1,
+      "cohort_size": 24,
+      "retained_users": 3,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort_week": "2026-02-16",
+      "weeks_since_first": 2,
+      "cohort_size": 24,
+      "retained_users": 4,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort_week": "2026-02-16",
+      "weeks_since_first": 3,
+      "cohort_size": 24,
+      "retained_users": 4,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort_week": "2026-02-16",
+      "weeks_since_first": 4,
+      "cohort_size": 24,
+      "retained_users": 9,
+      "retention_pct": 37.5
+    },
+    {
+      "cohort_week": "2026-02-16",
+      "weeks_since_first": 5,
+      "cohort_size": 24,
+      "retained_users": 5,
+      "retention_pct": 20.83
+    },
+    {
+      "cohort_week": "2026-02-16",
+      "weeks_since_first": 6,
+      "cohort_size": 24,
+      "retained_users": 1,
+      "retention_pct": 4.17
+    },
+    {
+      "cohort_week": "2026-02-23",
+      "weeks_since_first": 0,
+      "cohort_size": 29,
+      "retained_users": 29,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-02-23",
+      "weeks_since_first": 1,
+      "cohort_size": 29,
+      "retained_users": 6,
+      "retention_pct": 20.69
+    },
+    {
+      "cohort_week": "2026-02-23",
+      "weeks_since_first": 2,
+      "cohort_size": 29,
+      "retained_users": 11,
+      "retention_pct": 37.93
+    },
+    {
+      "cohort_week": "2026-02-23",
+      "weeks_since_first": 3,
+      "cohort_size": 29,
+      "retained_users": 4,
+      "retention_pct": 13.79
+    },
+    {
+      "cohort_week": "2026-02-23",
+      "weeks_since_first": 4,
+      "cohort_size": 29,
+      "retained_users": 7,
+      "retention_pct": 24.14
+    },
+    {
+      "cohort_week": "2026-02-23",
+      "weeks_since_first": 5,
+      "cohort_size": 29,
+      "retained_users": 1,
+      "retention_pct": 3.45
+    },
+    {
+      "cohort_week": "2026-03-02",
+      "weeks_since_first": 0,
+      "cohort_size": 23,
+      "retained_users": 23,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-03-02",
+      "weeks_since_first": 1,
+      "cohort_size": 23,
+      "retained_users": 6,
+      "retention_pct": 26.09
+    },
+    {
+      "cohort_week": "2026-03-02",
+      "weeks_since_first": 2,
+      "cohort_size": 23,
+      "retained_users": 3,
+      "retention_pct": 13.04
+    },
+    {
+      "cohort_week": "2026-03-02",
+      "weeks_since_first": 3,
+      "cohort_size": 23,
+      "retained_users": 2,
+      "retention_pct": 8.7
+    },
+    {
+      "cohort_week": "2026-03-09",
+      "weeks_since_first": 0,
+      "cohort_size": 21,
+      "retained_users": 21,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-03-09",
+      "weeks_since_first": 1,
+      "cohort_size": 21,
+      "retained_users": 5,
+      "retention_pct": 23.81
+    },
+    {
+      "cohort_week": "2026-03-09",
+      "weeks_since_first": 2,
+      "cohort_size": 21,
+      "retained_users": 2,
+      "retention_pct": 9.52
+    },
+    {
+      "cohort_week": "2026-03-09",
+      "weeks_since_first": 3,
+      "cohort_size": 21,
+      "retained_users": 1,
+      "retention_pct": 4.76
+    },
+    {
+      "cohort_week": "2026-03-16",
+      "weeks_since_first": 0,
+      "cohort_size": 24,
+      "retained_users": 24,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-03-16",
+      "weeks_since_first": 1,
+      "cohort_size": 24,
+      "retained_users": 7,
+      "retention_pct": 29.17
+    },
+    {
+      "cohort_week": "2026-03-16",
+      "weeks_since_first": 2,
+      "cohort_size": 24,
+      "retained_users": 2,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort_week": "2026-03-23",
+      "weeks_since_first": 0,
+      "cohort_size": 10,
+      "retained_users": 10,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_week": "2026-03-30",
+      "weeks_since_first": 0,
+      "cohort_size": 3,
+      "retained_users": 3,
+      "retention_pct": 100.0
+    }
+  ],
+  "products": [
+    {
+      "product_id": "p017",
+      "views": 60,
+      "cart_adds": 36,
+      "purchases": 19,
+      "revenue": 99898.27,
+      "purchase_to_view_pct": 31.67
+    },
+    {
+      "product_id": "p013",
+      "views": 72,
+      "cart_adds": 51,
+      "purchases": 16,
+      "revenue": 85759.75,
+      "purchase_to_view_pct": 22.22
+    },
+    {
+      "product_id": "p010",
+      "views": 68,
+      "cart_adds": 41,
+      "purchases": 17,
+      "revenue": 84262.89,
+      "purchase_to_view_pct": 25.0
+    },
+    {
+      "product_id": "p026",
+      "views": 68,
+      "cart_adds": 40,
+      "purchases": 15,
+      "revenue": 80570.96,
+      "purchase_to_view_pct": 22.06
+    },
+    {
+      "product_id": "p029",
+      "views": 62,
+      "cart_adds": 36,
+      "purchases": 19,
+      "revenue": 79643.53,
+      "purchase_to_view_pct": 30.65
+    },
+    {
+      "product_id": "p023",
+      "views": 46,
+      "cart_adds": 29,
+      "purchases": 15,
+      "revenue": 78781.15,
+      "purchase_to_view_pct": 32.61
+    },
+    {
+      "product_id": "p011",
+      "views": 75,
+      "cart_adds": 44,
+      "purchases": 17,
+      "revenue": 78425.32,
+      "purchase_to_view_pct": 22.67
+    },
+    {
+      "product_id": "p005",
+      "views": 62,
+      "cart_adds": 48,
+      "purchases": 17,
+      "revenue": 78150.75,
+      "purchase_to_view_pct": 27.42
+    },
+    {
+      "product_id": "p027",
+      "views": 57,
+      "cart_adds": 39,
+      "purchases": 17,
+      "revenue": 76620.57,
+      "purchase_to_view_pct": 29.82
+    },
+    {
+      "product_id": "p025",
+      "views": 68,
+      "cart_adds": 37,
+      "purchases": 16,
+      "revenue": 74036.38,
+      "purchase_to_view_pct": 23.53
+    },
+    {
+      "product_id": "p037",
+      "views": 72,
+      "cart_adds": 43,
+      "purchases": 13,
+      "revenue": 72673.82,
+      "purchase_to_view_pct": 18.06
+    },
+    {
+      "product_id": "p016",
+      "views": 66,
+      "cart_adds": 45,
+      "purchases": 15,
+      "revenue": 70873.36,
+      "purchase_to_view_pct": 22.73
+    },
+    {
+      "product_id": "p018",
+      "views": 53,
+      "cart_adds": 34,
+      "purchases": 14,
+      "revenue": 65983.5,
+      "purchase_to_view_pct": 26.42
+    },
+    {
+      "product_id": "p014",
+      "views": 59,
+      "cart_adds": 40,
+      "purchases": 15,
+      "revenue": 65880.94,
+      "purchase_to_view_pct": 25.42
+    },
+    {
+      "product_id": "p008",
+      "views": 72,
+      "cart_adds": 46,
+      "purchases": 20,
+      "revenue": 65144.31,
+      "purchase_to_view_pct": 27.78
+    },
+    {
+      "product_id": "p030",
+      "views": 57,
+      "cart_adds": 33,
+      "purchases": 11,
+      "revenue": 64343.94,
+      "purchase_to_view_pct": 19.3
+    },
+    {
+      "product_id": "p035",
+      "views": 79,
+      "cart_adds": 44,
+      "purchases": 11,
+      "revenue": 64025.2,
+      "purchase_to_view_pct": 13.92
+    },
+    {
+      "product_id": "p020",
+      "views": 61,
+      "cart_adds": 36,
+      "purchases": 16,
+      "revenue": 63536.16,
+      "purchase_to_view_pct": 26.23
+    },
+    {
+      "product_id": "p038",
+      "views": 74,
+      "cart_adds": 44,
+      "purchases": 15,
+      "revenue": 63267.45,
+      "purchase_to_view_pct": 20.27
+    },
+    {
+      "product_id": "p021",
+      "views": 67,
+      "cart_adds": 44,
+      "purchases": 14,
+      "revenue": 62591.09,
+      "purchase_to_view_pct": 20.9
+    },
+    {
+      "product_id": "p039",
+      "views": 60,
+      "cart_adds": 37,
+      "purchases": 11,
+      "revenue": 60956.11,
+      "purchase_to_view_pct": 18.33
+    },
+    {
+      "product_id": "p040",
+      "views": 64,
+      "cart_adds": 39,
+      "purchases": 10,
+      "revenue": 59604.32,
+      "purchase_to_view_pct": 15.63
+    },
+    {
+      "product_id": "p024",
+      "views": 67,
+      "cart_adds": 42,
+      "purchases": 12,
+      "revenue": 59406.38,
+      "purchase_to_view_pct": 17.91
+    },
+    {
+      "product_id": "p022",
+      "views": 63,
+      "cart_adds": 36,
+      "purchases": 13,
+      "revenue": 58966.67,
+      "purchase_to_view_pct": 20.63
+    },
+    {
+      "product_id": "p004",
+      "views": 53,
+      "cart_adds": 36,
+      "purchases": 14,
+      "revenue": 57886.11,
+      "purchase_to_view_pct": 26.42
+    },
+    {
+      "product_id": "p019",
+      "views": 57,
+      "cart_adds": 37,
+      "purchases": 10,
+      "revenue": 57023.64,
+      "purchase_to_view_pct": 17.54
+    },
+    {
+      "product_id": "p032",
+      "views": 63,
+      "cart_adds": 38,
+      "purchases": 13,
+      "revenue": 55103.97,
+      "purchase_to_view_pct": 20.63
+    },
+    {
+      "product_id": "p009",
+      "views": 83,
+      "cart_adds": 51,
+      "purchases": 14,
+      "revenue": 54857.57,
+      "purchase_to_view_pct": 16.87
+    },
+    {
+      "product_id": "p031",
+      "views": 54,
+      "cart_adds": 26,
+      "purchases": 13,
+      "revenue": 52673.06,
+      "purchase_to_view_pct": 24.07
+    },
+    {
+      "product_id": "p001",
+      "views": 61,
+      "cart_adds": 35,
+      "purchases": 11,
+      "revenue": 49521.55,
+      "purchase_to_view_pct": 18.03
+    },
+    {
+      "product_id": "p015",
+      "views": 55,
+      "cart_adds": 38,
+      "purchases": 11,
+      "revenue": 44639.56,
+      "purchase_to_view_pct": 20.0
+    },
+    {
+      "product_id": "p006",
+      "views": 58,
+      "cart_adds": 38,
+      "purchases": 8,
+      "revenue": 39386.06,
+      "purchase_to_view_pct": 13.79
+    },
+    {
+      "product_id": "p036",
+      "views": 54,
+      "cart_adds": 30,
+      "purchases": 9,
+      "revenue": 38492.81,
+      "purchase_to_view_pct": 16.67
+    },
+    {
+      "product_id": "p002",
+      "views": 53,
+      "cart_adds": 31,
+      "purchases": 8,
+      "revenue": 36754.84,
+      "purchase_to_view_pct": 15.09
+    },
+    {
+      "product_id": "p012",
+      "views": 51,
+      "cart_adds": 24,
+      "purchases": 8,
+      "revenue": 36362.48,
+      "purchase_to_view_pct": 15.69
+    },
+    {
+      "product_id": "p034",
+      "views": 60,
+      "cart_adds": 34,
+      "purchases": 11,
+      "revenue": 35839.26,
+      "purchase_to_view_pct": 18.33
+    },
+    {
+      "product_id": "p003",
+      "views": 70,
+      "cart_adds": 41,
+      "purchases": 8,
+      "revenue": 35712.95,
+      "purchase_to_view_pct": 11.43
+    },
+    {
+      "product_id": "p007",
+      "views": 69,
+      "cart_adds": 36,
+      "purchases": 8,
+      "revenue": 33559.86,
+      "purchase_to_view_pct": 11.59
+    },
+    {
+      "product_id": "p033",
+      "views": 49,
+      "cart_adds": 29,
+      "purchases": 6,
+      "revenue": 30487.52,
+      "purchase_to_view_pct": 12.24
+    },
+    {
+      "product_id": "p028",
+      "views": 58,
+      "cart_adds": 27,
+      "purchases": 7,
+      "revenue": 21920.58,
+      "purchase_to_view_pct": 12.07
+    }
+  ],
+  "devices": [
+    {
+      "device": "mobile",
+      "sessions": 1595,
+      "purchasing_sessions": 326,
+      "revenue": 1479004.77,
+      "conversion_pct": 20.44
+    },
+    {
+      "device": "desktop",
+      "sessions": 747,
+      "purchasing_sessions": 162,
+      "revenue": 776736.61,
+      "conversion_pct": 21.69
+    },
+    {
+      "device": "tablet",
+      "sessions": 158,
+      "purchasing_sessions": 29,
+      "revenue": 137883.26,
+      "conversion_pct": 18.35
+    }
+  ],
+  "summary": {
+    "sessions": 2500,
+    "synthetic_users": 781,
+    "purchasing_sessions": 517,
+    "revenue": 2393624.64,
+    "conversion_pct": 20.68
+  }
+}
