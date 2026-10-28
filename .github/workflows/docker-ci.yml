@@ -1,0 +1,42 @@
+name: Containerized Streamlit Smoke Test
+on:
+  push:
+    paths:
+      - "Dockerfile"
+      - "docker-compose.yml"
+      - "requirements.txt"
+      - "dashboard/app.py"
+      - "warehouse/**"
+      - "generators/**"
+      - "scripts/**"
+      - ".github/workflows/docker-ci.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  docker-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build a deterministic local warehouse image
+        run: docker build --tag clickstream-analytics:ci .
+      - name: Boot the non-root Streamlit service
+        run: |
+          docker run -d --name analytics-smoke --read-only --tmpfs /tmp:rw,size=64m \
+            --tmpfs /home/appuser/.streamlit:rw,size=10m \
+            -p 127.0.0.1:8501:8501 clickstream-analytics:ci
+      - name: Verify local web health endpoint
+        run: |
+          for i in $(seq 1 35); do
+            if curl --fail --silent http://127.0.0.1:8501/_stcore/health; then
+              echo "Streamlit HTTP health check passed"
+              exit 0
+            fi
+            sleep 2
+          done
+          docker logs analytics-smoke
+          exit 1
+      - name: Cleanup
+        if: always()
+        run: docker rm -f analytics-smoke 2>/dev/null || true
